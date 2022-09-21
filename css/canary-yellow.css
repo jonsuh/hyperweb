@@ -1,0 +1,17 @@
+.scrollingbar1,
+.scrollingbar2,
+.scrollingbar3,
+.scrollingbar4 {
+  display: none !important;
+}
+
+h1.main-title:not(:first-of-type) {
+  display: none !important;
+}
+
+#weather + figure {
+  animation: none;
+}
+#weather + figure:not(:first-of-type) {
+  display: none;
+}

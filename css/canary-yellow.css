@@ -1,3 +1,12 @@
+.additional-checkout-buttons {
+  opacity: 1 !important;
+  pointer-events: all !important;
+}
+
+div[role="button"][data-testid="ShopifyPay-button"] {
+  display: none !important;
+}
+
 .scrollingbar1,
 .scrollingbar2,
 .scrollingbar3,

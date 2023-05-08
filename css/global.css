@@ -1,0 +1,39 @@
+@-moz-document url-prefix("https://www.thestreameast.to/") {
+  .nav-mobile-wrapper.remove-for-app,
+  main > .container:first-of-type,
+  .curated-space,
+  div[onclick],
+  #GelismisReklams {
+    display: none !important;
+  }
+
+  .container,
+  .col-lg-9 {
+    max-width: 100% !important;
+    flex: auto !important;
+  }
+
+  fieldset {
+    border: 0;
+    padding: 0;
+  }
+
+  div[data-player] {
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+  }
+
+  html,
+  body {
+    background: #000 !important;
+  }
+
+  legend {
+    opacity: 0;
+  }
+
+  .f1-border--three-right {
+    padding: 0;
+    border: 0;
+  }
+}
